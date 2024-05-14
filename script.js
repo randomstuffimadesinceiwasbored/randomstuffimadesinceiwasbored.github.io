@@ -1,7 +1,7 @@
 var button = document.getElementById("button");
 
 function generatePathToWebsite() {
-    var number = Math.floor(Math.random() * 4) + 1
+    var number = Math.floor(Math.random() * 5) + 1
 
     return number.toString() + "/index.html"
 }
